@@ -14,7 +14,7 @@ Get started quickly using [Overleaf](https://www.overleaf.com/project/6383fc7ae5
 
 ```sh
 docker build -t latex .
-docker run --rm -i -v "$PWD":/data latex pdflatex sourabh_bajaj_resume.tex
+docker run --rm -i -v "$PWD":/data latex pdflatex ResumeSwarnaSarker.tex
 ```
 
 ### License
