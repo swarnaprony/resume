@@ -1,0 +1,199 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemSub}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/swarna-sarker/}{\Large Swarna Sarker}} & Email : \href{mailto:swarnaprony81@gmail.com}{swarnaprony81@gmail.com}\\
+  \href{https://www.linkedin.com/in/swarna-sarker/}{https://www.linkedin.com/in/swarna-sarker/} & Mobile : \href{tel:+49 (176) 46774824}{+49 (176) 46774824} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Leibniz Universität Hannover}{Hannover, Germany}
+      {Master of Science in Mathematics; (Incomplete)}{Oct. 2019 -- Dec. 2021}
+    \resumeSubheading
+      {University of Dhaka}{Dhaka, Bangladesh}
+      {Master of Science in Applied Mathematics;  CGPA 1.42 (Converted to German Grade)}{Jan. 2015 -- Mar. 2016}
+    \resumeSubheading
+      {University of Dhaka}{Dhaka, Bangladesh}
+      {Bachelor of Science in Mathematics;  CGPA: 1.96 (Converted to German Grade)}{Dec. 2009 -- Nov. 2014}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Process\& GmbH}{Munich, Germany}
+      {Junior Data Scientist}{Jan. 2022 - Mar. 2022}
+      \resumeItemListStart
+        \resumeItem{Data Transformation \& Modeling}
+          {Extracted, transformed, and created a data model from purchasing organization data of clients.}
+        \resumeItem{Process Optimisation}
+          {Created a dashboard to analyze the delay in the process due to vendor mismatch and its impact on the revenue. Reduced total throughput time for the process from 142 days to 137 days}
+        \resumeItem{Blacklisted Activity Detection}
+          {Created a dashboard to showcase the number of cases going through blacklisted activity and determined effort per solving the blacklisted activity. Created a formula for calculating total effort for solving blacklisted activity and its impact on overall labor productivity}
+        \resumeItem
+          {Technologies Used}
+          {Celunis, PQl, SQL, Python}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Lecturer of Mathematics}{Dhaka, Bangladesh}
+      {Lecturer of Mathematics}{Jan. 2017 - Sep. 2019}
+      \resumeItemListStart
+        \resumeItem{Course Work}
+          {Created course curriculum and taught Numerical Method, Linear Algebra, Business Mathematics, Differential and Integral Calculus, Ordinary and Partial Differential Equations, Engineering Mathematics, Art of livings.}
+        \resumeItem{Grading \& Counseling}
+          {Analyzed student’s grades and assigned relevant counseling needs.}
+        \resumeItem{Volunteer Works}
+          {Advised at Daffodil Nature Study Club.As an active member of Souhardo helped victims of natural disasters in remote areas of Bangladesh.}
+      \resumeItemListEnd
+     
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Keep Notes}
+      {An easy‑to‑use web app with an intuitive UI to keep small note with titles and dates. \textbf{Technologies}: ReactJS, ExpressJS, MongoDB, NodeJS. \href{https://github.com/swarnaprony/Keeper2}{https://github.com/swarnaprony/Keeper2}}
+    \resumeSubItem{Learning Log}
+      {An web application to log the learning progress of various topics I learn from web. \textbf{Technologies}: Python, Django, SQLite, Html, CSS. \href{https://github.com/swarnaprony/online_learning_log}{https://github.com/swarnaprony/online\_learning\_log}}
+    \resumeSubItem{Github Visualization}
+      {Data Visualization of Github repositories to analyze project trends over time. \textbf{Technologies}: Python, Matplotlib. \href{https://github.com/swarnaprony/DataVisualization}{https://github.com/swarnaprony/DataVisualization}}
+    \resumeSubItem{Domestic Flight Delay Dashboard}
+      {Created a dashboard to visualize flight data to find insights into delay. \textbf{Technologies}: Python, Pandas, Dash.  \href{https://github.com/swarnaprony/FlightsDelayDashboard}{https://github.com/swarnaprony/FlightsDelayDashboard}}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+    \item{
+     \textbf{Languages}{: Python, Javascript, SQL}
+     \hfill
+     \textbf{Backend Technologies}{: NodeJS, ExpressJS, Django}
+    }
+    \item{
+     \textbf{Frontend Technologies}{: HTML, CSS, Bootstrap, ReactJS}
+     \hfill
+     \textbf{Database Tools}{: MySQL, MongoDB, DB2}
+    }
+    \item{
+     \textbf{Data Analysis}{: Pandas, Jupyter Notebook, Scikit-Learn}
+     \hfill
+     \textbf{Others}{: Git, Github, Watson Studio, Celunis}
+    }
+ \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Courses \& Certifications}
+  \resumeSubHeadingListStart
+    \resumeItemSub{Udemy: Full Stack Web Development Bootcamp 2022}
+    \resumeItemSub{IBM Data Science Professional Certificate}
+    \resumeItemSub{Coursera: Data Analysis with Python}
+    \resumeItemSub{Coursera: Machine Learning with Python}
+    
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}

@@ -8,7 +8,7 @@ Most currently available templates either focus on two columns, or are multiple 
 
 ### Quick start
 
-Get started quickly using [Overleaf](https://www.overleaf.com/latex/templates/software-engineer-resume/gqxmqsvsbdjf) template.
+Get started quickly using [Overleaf](https://www.overleaf.com/project/6383fc7ae5946f0185fe9ca3) template.
 
 ### Build using Docker
 
@@ -16,10 +16,6 @@ Get started quickly using [Overleaf](https://www.overleaf.com/latex/templates/so
 docker build -t latex .
 docker run --rm -i -v "$PWD":/data latex pdflatex sourabh_bajaj_resume.tex
 ```
-
-### Preview
-
-![Resume Screenshot](/resume_preview.png)
 
 ### License
 
